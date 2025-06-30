@@ -17,9 +17,7 @@ const Testimonials = () => {
           <h2 className="text-3xl font-black text-gray-900 mb-4">
             Was unsere Kunden sagen
           </h2>
-          <p className="text-xl text-gray-600">
-            Erfolgsgeschichten aus über 20 Jahren Erfahrung
-          </p>
+    
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
