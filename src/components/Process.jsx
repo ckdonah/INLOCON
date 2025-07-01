@@ -2,7 +2,6 @@ import React from "react";
 import { Search, Filter, Bell, Settings, Target, Zap } from "lucide-react";
 
 const Process = () => {
-  // Mock data for the steps - using your original structure
   const processSteps = [
     {
       title: "Beschaffung",
@@ -39,14 +38,12 @@ const Process = () => {
           </p>
         </div>
 
-        {/* Single Background Card containing all three steps */}
         <div className="bg-white rounded-3xl p-12 border border-gray-100 mb-16">
           <div className="grid md:grid-cols-3 gap-8">
               {processSteps.map((step, index) => (
                 <div key={index} className="group relative">
-                  {/* Individual step content */}
                   <div className="relative">
-                    {/* Icon container */}
+           
                     <div className="relative mb-6">
                       <div
                         className={`w-20 h-20 bg-gradient-to-br ${step.gradient} rounded-3xl flex items-center justify-center shadow-xl mx-auto group-hover:scale-110 transition-transform duration-300`}
@@ -54,7 +51,7 @@ const Process = () => {
                         <step.icon className="text-white" size={32} />
                       </div>
 
-                      {/* Floating particles */}
+            
                       <div
                         className="absolute top-0 left-0 w-4 h-4 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full opacity-0 group-hover:opacity-100 animate-bounce transition-all duration-300"
                         style={{ animationDelay: "0s" }}
@@ -65,7 +62,7 @@ const Process = () => {
                       ></div>
                     </div>
 
-                    {/* Content */}
+                 
                     <div className="text-center">
                       <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
                         {step.title}
@@ -78,7 +75,7 @@ const Process = () => {
                  
                   </div>
 
-                  {/* Arrow between steps */}
+             
                   {index < processSteps.length - 1 && (
                     <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-20">
                       <div className="w-8 h-8 bg-white rounded-full shadow-lg border-2 border-indigo-200 flex items-center justify-center">
@@ -91,7 +88,7 @@ const Process = () => {
             </div>
         </div>
 
-        {/* Bottom Feature Cards */}
+       
         <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center p-6 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl border border-indigo-100">
             <h4 className="font-semibold text-gray-900 mb-1">Automatisiert</h4>
