@@ -20,46 +20,19 @@ const About = () => {
             </div>
           </div>
           
-       
           <div>
             <h2 className="text-3xl font-black text-gray-900 mb-6">
               Inlocon - der starke Partner für Ihren Erfolg
             </h2>
+            
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Als führender Informationsdienstleister im öffentlichen Beschaffungswesen unterstützen wir Unternehmen dabei, effizient neue Aufträge zu finden.
+              Seit über 24 Jahren sind wir führender Informationsdienstleister im öffentlichen Beschaffungswesen. Wir recherchieren täglich aus über 463 Originalquellen und unterstützen Unternehmen dabei, effizient passende Aufträge zu finden.
             </p>
             
-      
-            <div className="grid grid-cols-2 gap-6 mb-8">
-              <div className="text-center p-4">
-                <div className="text-2xl font-bold text-indigo-600 mb-1">D-A-CH</div>
-                <div className="text-sm text-gray-500">Marktabdeckung</div>
-              </div>
-              <div className="text-center p-4">
-                <div className="text-2xl font-bold text-indigo-600 mb-1">Leipzig</div>
-                <div className="text-sm text-gray-500">Hauptsitz</div>
-              </div>
-            </div>
-
-  
-            <div className="flex items-center space-x-4">
-              <img 
-                src={images.team1} 
-                alt="Andreas Scobel"
-                className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-lg"
-              />
-              <img 
-                src={images.team2} 
-                alt="Roberto da Silva"
-                className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-lg -ml-2"
-              />
-              <div className="ml-4">
-                <p className="text-sm font-medium text-gray-900">Andreas Scobel & Roberto da Silva</p>
-                <p className="text-xs text-gray-500">Ihr Expertenteam</p>
-              </div>
-            </div>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Mit unserer einzigartigen 3-Wege-Filter-Technologie aus ca. 8000 Gewerkeprofilen erreichen wir eine 100% Trefferquote für Ihren Erfolg. Vertrauen Sie auf bewährte Expertise von namhaften Kunden wie Strabag, Deutsche Bahn und Siemens.
+            </p>
           </div>
-    
         </div>
       </div>
     </section>

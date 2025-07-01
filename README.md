@@ -1,13 +1,61 @@
-# React + Vite
+# INLOCON Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern landing page for INLOCON AG 
 
-Currently, two official plugins are available:
+🌐 **Live Site**: [https://inlocon.netlify.app/](https://inlocon.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What's This?
 
-## Expanding the ESLint configuration
+INLOCON provides automated tender monitoring across Germany, Austria, and Switzerland. This landing page showcases their services with a clean, professional design.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# INLOCON
+## Tech Stack
+
+- **React 19** - Latest React features
+- **Vite** - Fast development and builds  
+- **Tailwind CSS** - For styling
+- **Lucide React** - Icons
+- **Netlify** - Hosting
+
+## Getting Started
+
+```bash
+# Clone and install
+git clone git@github.com:ckdonah/INLOCON.git
+cd inlocon-landing-page
+npm install
+
+# Start developing
+npm run dev
+```
+
+Open localhost and you're good to go.
+
+## Project Structure
+
+```
+src/
+├── components/     # All React components
+├── data/          # Content and configuration
+├── utils/         # Image imports
+└── assets/        # Local images and logos
+```
+
+## Key Features
+
+- Fully responsive design
+- Smooth animations and hover effects
+- Interactive gallery with filtering
+- Mobile-friendly navigation
+- Modern glassmorphism UI effects
+
+
+## Content Management
+
+All text content lives in `src/data/content.js`. Want to change something? Just edit that file.
+
+Images are managed in `src/utils/images.js` - mix of Unsplash and local assets.
+
+## Deployment
+
+Currently auto-deploys to Netlify from the main branch. Push changes and they go live automatically.
+
