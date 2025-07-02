@@ -42,7 +42,7 @@ const processSteps = [
 
 const Process = () => {
   return (
-    <section className="bg-white py-24 ">
+    <section id="process" className="bg-white py-24 ">
       <div className="max-w-6xl mx-auto px-6">
       
         <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
