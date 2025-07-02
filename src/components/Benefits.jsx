@@ -52,7 +52,7 @@ const Benefits = () => {
               Effiziente Lösung für Ihre Ausschreibungssuche
             </h2>
 
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-l text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Ziel ist es, Ihnen Zeit und Geld bei der manuellen Suche nach
               neuen Aufträgen zu sparen und Sie umfänglich mit relevanten
               Auftragschancen zu versorgen.
@@ -64,8 +64,11 @@ const Benefits = () => {
           <div className="lg:col-span-3 space-y-12">
             <div>
               <p className="text-l text-gray-600 leading-relaxed">
-                Wir sammeln Ausschreibungen aus Deutschland, Österreich und der
-                Schweiz, passen sie an Ihr Unternehmen an und zeigen Ihnen nur
+                Unsere Kunden haben rund um die Uhr Zugang zu unserem Portal und
+                werden täglich benachrichtigt, wenn für sie passende
+                Ausschreibungen veröffentlicht werden. Wir sammeln
+                Ausschreibungen aus Deutschland, Österreich und der Schweiz,
+                passen sie an Ihr Unternehmen an und zeigen Ihnen nur
                 diejenigen, die es wert sind, darauf zu bieten — und mit
                 integrierter Beschaffungsintelligenz helfen wir Ihnen, Ihre
                 Gewinnchancen zu erhöhen.
