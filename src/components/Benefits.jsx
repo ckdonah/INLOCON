@@ -48,7 +48,7 @@ const Benefits = () => {
               Warum INLOCON wählen?
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-6 leading-tight">
+            <h2 className="text-3xl font-extrabold md:text-4xl font-black  mb-6 leading-tight  text-indigo-950">
               Effiziente Lösung für Ihre Ausschreibungssuche
             </h2>
 

@@ -21,7 +21,7 @@ const About = () => {
           </div>
           
           <div>
-            <h2 className="text-3xl font-black text-gray-900 mb-6">
+            <h2 className="text-3xl font-extrabold text-indigo-950 mb-6">
               Inlocon - der starke Partner für Ihren Erfolg
             </h2>
             
