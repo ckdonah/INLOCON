@@ -26,10 +26,10 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`fixed w-full z-50 transition-all duration-500 ${
+        className={`w-full z-50 transition-all duration-500 ${
           scrollY > 50
             ? "bg-white/80 backdrop-blur-xl shadow-sm border-b border-gray-100"
-            : "bg-transparent"
+            : "bg-white"
         }`}
       >
         <div className="max-w-6xl mx-auto px-6">
@@ -38,7 +38,7 @@ const Navbar = () => {
               <img
                 src={logo.main}
                 alt="INLOCON AG - Informationslogistik & Consulting"
-                className="h-10 w-auto bg-white/80 backdrop-blur-sm px-3 py-1 shadow-sm border border-gray-100/50"
+                className="h-10 w-auto"
               />
             </div>
 

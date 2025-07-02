@@ -24,24 +24,24 @@ const Gallery = () => {
     {
       id: 3,
       src: galleryImages.gallery3,
-      title: "Erfolgreiche Bauprojekte",
+      title: "Bauprojekte",
       category: "projects",
       description: "Dokumentation erfolgreicher Ausschreibungsprojekte im Baubereich unserer Kunden"
     },
-    {
-      id: 4,
-      src: galleryImages.gallery4,
-      title: "Portal Dashboard",
-      category: "technology",
-      description: "Modernste Technologie für die 24/7 Analyse von Ausschreibungsdaten aus über 100 Quellen"
-    },
-    {
-      id: 5,
-      src: galleryImages.gallery5,
-      title: "Strategische Beratung",
-      category: "office",
-      description: "Strategische Besprechungen zur kontinuierlichen Optimierung unserer Services"
-    },
+    // {
+    //   id: 4,
+    //   src: galleryImages.gallery4,
+    //   title: "Portal Dashboard",
+    //   category: "technology",
+    //   description: "Modernste Technologie für die 24/7 Analyse von Ausschreibungsdaten aus über 100 Quellen"
+    // },
+    // {
+    //   id: 5,
+    //   src: galleryImages.gallery5,
+    //   title: "Strategische Beratung",
+    //   category: "office",
+    //   description: "Strategische Besprechungen zur kontinuierlichen Optimierung unserer Services"
+    // },
     {
       id: 6,
       src: galleryImages.gallery6,
@@ -63,20 +63,20 @@ const Gallery = () => {
       category: "technology",
       description: "Höchste Sicherheitsstandards für den Schutz Ihrer sensiblen Ausschreibungsdaten"
     },
-    {
-      id: 9,
-      src: galleryImages.gallery9,
-      title: "20 Jahre Expertise",
-      category: "awards",
-      description: "Anerkennungen für unsere herausragenden Leistungen im Ausschreibungsmanagement"
-    },
-    {
-      id: 10,
-      src: galleryImages.gallery10,
-      title: "Kontinuierliche Innovation",
-      category: "team",
-      description: "Unser Team arbeitet stetig an innovativen Lösungen für bessere Ausschreibungsergebnisse"
-    }
+    // {
+    //   id: 9,
+    //   src: galleryImages.gallery9,
+    //   title: "20 Jahre Expertise",
+    //   category: "awards",
+    //   description: "Anerkennungen für unsere herausragenden Leistungen im Ausschreibungsmanagement"
+    // },
+    // {
+    //   id: 10,
+    //   src: galleryImages.gallery10,
+    //   title: "Kontinuierliche Innovation",
+    //   category: "team",
+    //   description: "Unser Team arbeitet stetig an innovativen Lösungen für bessere Ausschreibungsergebnisse"
+    // }
   ];
 
   const filters = [
@@ -85,19 +85,14 @@ const Gallery = () => {
     { id: 'team', label: 'Team', icon: Users },
     { id: 'projects', label: 'Projekte', icon: Briefcase },
     { id: 'technology', label: 'Technologie', icon: Monitor },
-    { id: 'awards', label: 'Erfolge', icon: Award }
+    // { id: 'awards', label: 'Erfolge', icon: Award }
   ];
 
   const filteredImages = activeFilter === 'all' 
     ? galleryData 
     : galleryData.filter(img => img.category === activeFilter);
 
-  const stats = [
-    { value: "500+", label: "Erfolgreiche Projekte" },
-    { value: "100+", label: "Aktive Quellen" },
-    { value: "D-A-CH", label: "Marktabdeckung" },
-    { value: "20+", label: "Jahre Erfahrung" }
-  ];
+  
 
   return (
     <section id="gallery" className="py-24 bg-white">
@@ -108,7 +103,7 @@ const Gallery = () => {
             Einblicke in unser Unternehmen
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Entdecken Sie unser Team, unsere modernen Büroräume und erfolgreiche Projekte aus über 20 Jahren Ausschreibungsmanagement
+            Entdecken Sie unser Team, unsere modernen Büroräume und Projekte.
           </p>
         </div>
 
@@ -176,7 +171,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      {selectedImage && (
+      {/* {selectedImage && (
         <div
           className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 animate-fadeIn"
           onClick={() => setSelectedImage(null)}
@@ -208,51 +203,9 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
 
-      <style jsx>{`
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-
-        @keyframes scaleIn {
-          from {
-            opacity: 0;
-            transform: scale(0.8);
-          }
-          to {
-            opacity: 1;
-            transform: scale(1);
-          }
-        }
-
-        .animate-fadeIn {
-          animation: fadeIn 0.3s ease-out;
-        }
-
-        .animate-scaleIn {
-          animation: scaleIn 0.3s ease-out;
-        }
-
-        .line-clamp-2 {
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-      `}</style>
+      
     </section>
   );
 };
