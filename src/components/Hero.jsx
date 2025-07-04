@@ -14,9 +14,9 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50">
       <div className="absolute inset-0">
-        <div className="absolute top-10 right-10 w-96 h-96 border-2 border-gray-200 rounded-full opacity-30"></div>
+        {/* <div className="absolute top-10 right-10 w-96 h-96 border-2 border-gray-200 rounded-full opacity-30"></div>
         <div className="absolute bottom-20 left-20 w-80 h-80 border-2 border-indigo-200 rounded-full opacity-20"></div>
-        <div className="absolute top-1/3 right-1/4 w-64 h-64 border border-purple-200 rounded-full opacity-25"></div>
+        <div className="absolute top-1/3 right-1/4 w-64 h-64 border border-purple-200 rounded-full opacity-25"></div> */}
 
         <div className="absolute top-20 left-20 w-32 h-32 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-pulse"></div>
         <div

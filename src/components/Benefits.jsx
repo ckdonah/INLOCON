@@ -33,7 +33,7 @@ const Benefits = () => {
   return (
     <section id="benefits" className="py-24 bg-white overflow-hidden relative">
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-indigo-200 to-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+        {/* <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-indigo-200 to-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div> */}
         <div
           className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-emerald-200 to-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"
           style={{ animationDelay: "2s" }}
